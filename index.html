@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СОНКАТ – Головні розробки</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>СОНКАТ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#films">Фільми</a></li>
+                    <li><a href="#literature">Література</a></li>
+                    <li><a href="#tests">Тести</a></li>
+                    <li><a href="#footer">Контакти</a></li> </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h2>Ласкаво просимо у світ СОНКАТ!</h2>
+                <p>Тут відбувається боротьба з підлітковою кризою ідентичності.</p>
+                <div class="hero-circle-decorations">
+                    <div class="circle-item c1" style="background-image: url('assets/images/sk1.jpg');"></div>
+                    <div class="circle-item c2" style="background-image: url('assets/images/sk2.jpg');"></div>
+                    <div class="circle-item c3" style="background-image: url('assets/images/sk3.jpg');"></div>
+                    <div class="circle-item c4" style="background-image: url('assets/images/sk4.jpg');"></div>
+                    <div class="circle-item c5" style="background-image: url('assets/images/sk5.jpg');"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="films" class="content-section">
+            <div class="container">
+                <h2>Фільми СОНКАТПРОДАКШН</h2>
+                <p class="section-description">Обирайте фільм, щоб поринути у його історію. Від коротких замальовок до глибоких наративів.</p>
+                <div class="film-catalog">
+                    <div class="film-card">
+                        <img src="assets\images\film1.jpg" alt="Обкладинка фільму 1">
+                        <h3>Зарозумілий цар і вигнана донька</h3>
+                        <p class="film-genre">Жанр: Жорстоке поводження з принцесами</p>
+                        <p class="film-description">У далекому царстві жив цар що вважав себе найккращим, але його донька задовбалась. Також тут є суперсочний Баклій Гультіпака!!!</p>
+                        <button class="view-film-btn" data-video-filename="film3">Дивитись фільм</button> 
+                    </div>
+                    <div class="film-card">
+                        <img src="assets\images\film2.jpg" alt="Обкладинка фільму 2">
+                        <h3>Шеболд</h3>
+                        <p class="film-genre">Жанр: Про красавчіков</p>
+                        <p class="film-description">Вайб султанів та жіночої солідарності.. Але що таке кохання? Кохання це коли не можеш забути її очі... Або ж... Кокетліві усікі, ви захочете Шеболда 100% а також гарбузову кашу</p>
+                        <button class="view-film-btn" data-video-filename="film2">Дивитись фільм</button>
+                    </div>
+                    <div class="film-card">
+                        <img src="assets\images\film3.jpg" alt="Обкладинка фільму 1">
+                        <h3>Голодні юнаки</h3>
+                        <p class="film-genre">Жанр: Спектакль про виживання.</p>
+                        <p class="film-description">Гуляли собі юнаки і думали як би їм безкоштовно поїсти</p>
+                        <button class="view-film-btn" data-video-filename="film1">Дивитись фільм</button>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="literature" class="content-section">
+            <div class="container">
+                <h2>Літературні Історії</h2>
+                <p class="section-description">Ми пишемо історії про вас! Дослідіть унікальні події вашого життя, які були забуті.</p>
+                <div class="story-catalog">
+                    <div class="story-card">
+                        <img src="assets/images/story1_title.jpg" alt="Обкладинка історії 1">
+                        <h3>Брудний сніг </h3>
+                        <p class="story-genre">Жанр: Жіноча мрія</p>
+                        <p class="story-actors">Персонажі: Женя (дівчинка), Кіра</p>
+                        <p class="story-description">Готуйтесь, не дивлячись на мороз, тут буде жарко...</p>
+                        <button class="read-story-btn" data-story-id="story_about_name">Читати історію</button>
+                    </div>
+                    <div class="story-card">
+                        <img src="assets/images/story2_title.jpg" alt="Обкладинка історії 1">
+                        <h3>Скляні серця</h3>
+                        <p class="story-genre">Жанр: Кримінал і драма</p>
+                        <p class="story-actors">Персонажі: Женя (хлопчик), Маша, Єгор</p>
+                        <p class="story-description">Зрада та багато кохання. Сумна історія розбитих сердець та тримтячих рук...</p>
+                        <button class="read-story-btn" data-story-id="legend_of_othername">Читати історію</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tests">
+            <div class="container">
+                <h2>Тести</h2>
+                <div id="test-carousel" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="bunnies-girls-test">
+                                    <h3>Хто ви з дівчаток Банніц?</h3>
+                                    <p>Дізнайтеся, яка дівчинка-банниця вам найбільше відповідає!</p>
+                                    <button class="start-test-btn" data-test-id="bunnies-girls-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="voenka-test">
+                                    <h3>Наскільки ти "воєнка"?</h3>
+                                    <p>Цей тест допоможе визначити ваш рівень "воєнки".</p>
+                                    <button class="start-test-btn" data-test-id="voenka-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="sonkat-dream-test">
+                                    <h3>Ви як мрія СОНКАТА?</h3>
+                                    <p>Чи відповідаєте ви ідеалам та баченням СОНКАТА?</p>
+                                    <button class="start-test-btn" data-test-id="sonkat-dream-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="ideal-pair-test">
+                                    <h3>Ваша ідеальна пара (знайомі СОНКАТА)</h3>
+                                    <p>Знайдіть свою ідеальну пару серед персонажів та знайомих СОНКАТА.</p>
+                                    <button class="start-test-btn" data-test-id="ideal-pair-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="cat-personality-test">
+                                    <h3>Ви як кішечка?</h3>
+                                    <p>Яка кішечка найкраще описує вашу особистість?</p>
+                                    <button class="start-test-btn" data-test-id="cat-personality-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="literature-genre-test">
+                                    <h3>Який ви жанр літератури?</h3>
+                                    <p>Дізнайтесь, який літературний жанр відображає вашу сутність.</p>
+                                    <button class="start-test-btn" data-test-id="literature-genre-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="sleep-place-test">
+                                    <h3>Ви як місце для сну?</h3>
+                                    <p>Яке місце для відпочинку найкраще описує ваш характер?</p>
+                                    <button class="start-test-btn" data-test-id="sleep-place-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="constellation-test">
+                                    <h3>Яке ви наше сузір'я?</h3>
+                                    <p>Знайдіть своє унікальне сузір'я у світі СОНКАТА.</p>
+                                    <button class="start-test-btn" data-test-id="constellation-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="popular-character-test">
+                                    <h3>Ви як популярний персонаж?</h3>
+                                    <p>На кого з відомих персонажів ви схожі?</p>
+                                    <button class="start-test-btn" data-test-id="popular-character-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="wtg-personality-test">
+                                    <h3>Ваш тип особистості по ВТГ?</h3>
+                                    <p>Визначте свій тип особистості за системою ВТГ.</p>
+                                    <button class="start-test-btn" data-test-id="wtg-personality-test">Пройти тест</button>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="test-card" data-test-id="deadly-sin-test">
+                                    <h3>Який ви з 6 смертних гріхів?</h3>
+                                    <p>Дізнайтеся, який з головних гріхів вам найбільше притаманний.</p>
+                                    <button class="start-test-btn" data-test-id="deadly-sin-test">Пройти тест</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="test-quiz-area">
+                </div>
+
+                <button class="back-to-tests-btn" style="display: none; margin-top: 20px;">Назад до тестів</button>
+            </div>
+        </section>
+
+<footer id="footer"> <div class="container">
+        <p>&copy; 2023 СОНКАТ. Усі права захищено.</p>
+
+        <div class="footer-social-links"> <a href="https://t.me/sonpubercat" target="_blank" aria-label="Telegram канал СОНКАТ">
+                <img src="assets/images/trlrlogo.jpg" alt="Telegram Avatar" class="social-avatar">
+                <span>Telegram</span>
+            </a>
+            <a href="https://www.tiktok.com/@sonkatbloh?_t=ZM-8wxEMndvXd8&_r=1" target="_blank" aria-label="TikTok СОНКАТ">
+                <img src="assets/images/tiktok.jpg" alt="TikTok Avatar" class="social-avatar">
+                <span>TikTok</span>
+            </a>
+            <a href="https://www.instagram.com/safiavsworld?igsh=d2twNmZjYmpkb2lz&utm_source=qr" target="_blank" aria-label="Instagram СОН">
+                <img src="assets/images/son.jpg" alt="Instagram СОН Avatar" class="social-avatar">
+                <span>Instagram (СОН)</span>
+            </a>
+            <a href="https://www.instagram.com/smoorfisoft?igsh=bzh2ZjhueWU2cHpo" target="_blank" aria-label="Instagram КАТ">
+                <img src="assets/images/kat.jpg" alt="Instagram КАТ Avatar" class="social-avatar">
+                <span>Instagram (КАТ)</span>
+            </a>
+        </div>
+    </div>
+</footer>
+        </div>
+    </section>
+    </main>
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <div class="video-container">
+                <video id="filmVideoPlayer" controls playsinline>
+                    Ваш браузер не підтримує відтворення відео.
+                </video>
+            </div>
+        </div>
+    </div>
+    <div id="storyModal" class="modal">
+        <div class="modal-content story-modal-content">
+            <span class="close-button">&times;</span>
+            <h3 id="storyTitle"></h3>
+            <p id="storyGenre"></p>
+            <p id="storyCharacters"></p>
+            <p id="storyAuthors"></p>
+            <div id="storyFullText"></div>
+
+            <div id="storyGallery" class="story-gallery">
+                </div>
+
+            <button class="modal-close-button">Закрити</button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://uquiz.com/embed.js"></script>
+</body>
+</html>
